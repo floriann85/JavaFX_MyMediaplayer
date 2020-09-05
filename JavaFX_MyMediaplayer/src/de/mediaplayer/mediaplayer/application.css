@@ -1,0 +1,63 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+/* .Styleklasse */
+.root {
+	-fx-base: rgb(135.0,206.0,250.0);		
+}
+
+/* #id Selektor */
+#btnRepeat {
+	/* nur das Bild anzeigen und nicht den Button */
+	-fx-background-color: transparent;
+	/* die Darstellung des Cursor ändern */
+	-fx-cursor: hand;
+}
+
+#btnStop {
+	/* nur das Bild anzeigen und nicht den Button */
+	-fx-background-color: transparent;
+	/* die Darstellung des Cursor ändern */
+	-fx-cursor: hand;
+}
+
+#btnBackward {
+	/* nur das Bild anzeigen und nicht den Button */
+	-fx-background-color: transparent;
+	/* die Darstellung des Cursor ändern */
+	-fx-cursor: hand;
+}
+
+#btnPlay {
+	/* nur das Bild anzeigen und nicht den Button */
+	-fx-background-color: transparent;
+	/* die Darstellung des Cursor ändern */
+	-fx-cursor: hand;
+}
+
+#btnForward {
+	/* nur das Bild anzeigen und nicht den Button */
+	-fx-background-color: transparent;
+	/* die Darstellung des Cursor ändern */
+	-fx-cursor: hand;
+}
+
+#btnSound {
+	/* nur das Bild anzeigen und nicht den Button */
+	-fx-background-color: transparent;
+	/* die Darstellung des Cursor ändern */
+	-fx-cursor: hand;
+}
+
+#FXMLControllerToolbar {
+	-fx-background-color: derive(-fx-base, -30.0%);	
+}
+
+#hboxWSteuerelmente {
+	-fx-background-color: rgb(142.0,229.0,238.0);
+	 -fx-background-radius: 15.0; 	
+}
+
+.button:hover {
+	-fx-scale-x: 1.1;
+	-fx-scale-y: 1.1;
+}
